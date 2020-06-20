@@ -3,10 +3,8 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 
-def valid_move?(num, board)
-  num.between?(0, 8) && position_taken?(board, num)
-    return true
-  end
+def valid_move?(board, index)
+
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.

@@ -2,6 +2,7 @@
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
+num = 
 
 def valid_move?(board, index)
   if index.between(1, 9) && position_taken? == false

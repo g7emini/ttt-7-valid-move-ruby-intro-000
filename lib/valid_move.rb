@@ -5,7 +5,7 @@ index = 0
 
 def valid_move?(board, index)
   if position_taken?
-    #execute something
+    # execute something
   end
 end
 

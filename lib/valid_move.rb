@@ -4,7 +4,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 
 def valid_move?(num, board)
-  num.between?(0, 8) && !(position_taken?(board, num))
+  num.between?(0, 8) && position_taken?(board, num)
+    return true
   end
 end
 

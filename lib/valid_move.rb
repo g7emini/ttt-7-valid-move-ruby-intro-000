@@ -3,7 +3,7 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 
-def valid_move?(board, index)
+def valid_move?(board, position)
 
 end
 

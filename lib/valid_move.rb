@@ -4,7 +4,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 
 def valid_move?(board, index)
-  spot = index.to_i - 1
+  index = index.to_i - 1
   if !(position_taken?(board, index)) && index.between?(0,8)
 		true
 		else 

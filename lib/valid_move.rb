@@ -4,7 +4,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 
 def valid_move?(board, position)
-  spot = position
+  spot = position.to
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.

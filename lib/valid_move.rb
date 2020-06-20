@@ -4,7 +4,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 
 def valid_move?(num, board)
-  num.between
+  num.between?(0, 8)
   else
     # execute something else
   end
